@@ -1,12 +1,11 @@
 <template lang="pug">
   <div>
-    h1 Main Page
-    Form
+    Processing
   </div>
 </template>
 
 <script>
-import Form from '@/components/Form'
+import Processing from '@/components/Processing'
 
 export default {
   name: 'Main',
@@ -17,7 +16,7 @@ export default {
   },
 
   components: {
-    Form
+    Processing
   }
 }
 </script>
