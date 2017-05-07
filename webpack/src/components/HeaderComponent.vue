@@ -4,6 +4,7 @@
       router-link.header-link(to="/") Главная
       router-link.header-link(to="/login") Логин
       router-link.header-link(to="/registration") Регистрация
+      router-link.header-link(to="/template") Template
 
 </template>
 

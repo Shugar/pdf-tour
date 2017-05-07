@@ -4,6 +4,7 @@ import Router from 'vue-router'
 import Main from '@/pages/Main'
 import Login from '@/pages/Login'
 import Registration from '@/pages/Registration'
+import Template from '@/pages/Template'
 
 Vue.use(Router)
 
@@ -24,6 +25,11 @@ export default new Router({
       path: '/registration',
       name: 'Registration',
       component: Registration
+    },
+    {
+      path: '/template',
+      name: 'Template',
+      component: Template
     }
   ]
 })
